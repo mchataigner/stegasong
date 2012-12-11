@@ -1,0 +1,71 @@
+import steganographiemp3.*;
+import java.util.BitSet;
+import java.io.File;
+import java.io.FileWriter;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+	
+	String leContenu="Message secret cache dans le MP3. azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty  azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty  azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty  azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty  azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty  azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty azerty";
+	
+	Message monMessage = new Message(leContenu+leContenu+" pouet ");
+	
+	try
+            {
+		
+		/* METHODE PAR INSERTION */
+		
+		//Instanciation du MP3
+		MP3 gladiator = new MP3("gladiator.mp3",1000);
+		
+		//On insère le message dans le MP3 avec la methode par insertion
+		int debut=gladiator.stega(monMessage,513);
+		
+		//On enregistre le MP3 modifié sous forme d'un fichier MP3
+		gladiator.toMP3("gladiator_insertion.mp3");
+		System.out.println("Fichier MP3 créé (par insertion)");
+		
+		//On instancie ce nouveau MP3
+		MP3 gladiator_insertion = new MP3("gladiator_insertion.mp3",1000);
+		
+		//On decode notre MP3 pour y trouver le message cache, et on le stocke dans un fichier texte
+		FileWriter message_decode_insertion = new FileWriter(new File("message_decode_insertion.txt"));
+		message_decode_insertion.write(gladiator_insertion.decoder(debut));
+		message_decode_insertion.flush();
+		message_decode_insertion.close();
+		System.out.println("Décodage insertion effectué");
+		
+		/* METHODE PAR SUBSTITUTION */
+		
+		//On réinstancie le MP3
+		MP3 gladiator2 = new MP3("gladiator.mp3",1000);
+		
+		//On insère le message dans le MP3 avec la methode par substitution.
+		//On choisit de modifier à un intervale de 32 bits à partir du bit numero 4096.
+                Message message2=new Message("MPEG-1 Audio Layer 3, more commonly referred to as MP3, is a patented digital audio encoding format using a form of lossy data compression. It is a common audio format for consumer audio storage, as well as a de facto standard of digital audio compression for the transfer and playback of music on digital audio players.\n\nMP3 is an audio-specific format that was designed by the Moving Picture Experts Group as part of its MPEG-1 standard. The group was formed by several teams of engineers at Fraunhofer IIS in Erlangen, Germany, AT&T-Bell Labs (now a division of Alcatel-Lucent) in Murray Hill, NJ, USA, Thomson-Brandt, and CCETT as well as others. It was approved as an ISO/IEC standard in 1991.\nThe use in MP3 of a lossy compression algorithm is designed to greatly reduce the amount of data required to represent the audio recording and still sound like a faithful reproduction of the original uncompressed audio for most listeners. An MP3 file that is created using the setting of 128 kbit/s will result in a file that is about 1/11th[note 1] the size of the CD file created from the original audio source. An MP3 file can also be constructed at higher or lower bit rates, with higher or lower resulting quality.\n\nThe compression works by reducing accuracy of certain parts of sound that are deemed beyond the auditory resolution ability of most people. This method is commonly referred to as perceptual coding.[5] It internally provides a representation of sound within a short-term time/frequency analysis window, by using psychoacoustic models to discard or reduce precision of components less audible to human hearing, and recording the remaining information in an efficient manner.\n\nThis technique is often presented as relatively conceptually similar to the principles used by JPEG, an image compression format. The specific algorithms, however, are rather different: JPEG uses a built-in vision model that is very widely tuned (as is necessary for images), while MP3 uses a complex, precise masking model that is much more signal dependent.");
+
+		debut=gladiator2.stega(message2,0,13);
+		
+		//On enregistre le MP3 modifié sous forme d'un fichier MP3
+		gladiator2.toMP3("gladiator_substitution.mp3");
+		System.out.println("Fichier MP3 créé (par substitution)");
+		
+		//On instancie ce nouveau MP3
+		MP3 gladiator_substitution = new MP3("gladiator_substitution.mp3",1000);
+		
+		//On decode notre MP3 pour y trouver le message cache, et on le stocke dans un fichier texte
+		FileWriter message_decode_substitution = new FileWriter(new File("message_decode_substitution.txt"));
+		message_decode_substitution.write(gladiator_substitution.decoder(debut,13));
+		message_decode_substitution.flush();
+		message_decode_substitution.close();
+		System.out.println("Décodage substitution effectué");
+	
+            }
+	catch(Exception e)
+            {e.printStackTrace();}
+	
+
+    }
+}
